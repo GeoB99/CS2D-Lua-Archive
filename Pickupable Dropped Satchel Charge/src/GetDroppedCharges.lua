@@ -42,7 +42,8 @@ function SatchelChargeGetonUse(id)
           if ( MsgDisplay ) then
             msg2(id, MsgNoRemote)
           else
-          -- Do nothing (don't output the message!)
+          -- Terminate the function if MsgDisplay is set as FALSE
+            return
           end
         end
       end
