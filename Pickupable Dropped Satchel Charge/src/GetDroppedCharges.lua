@@ -65,13 +65,13 @@ function SatchelAmmoCount(text)
         if ( MsgDisplay ) then
           msg2(id, MsgPickCharge)
         else
-          -- Do nothing (don't output the message!)
+          return
         end
       else
         if ( MsgDisplay ) then
           msg2(id, MsgFullAmmo)
         else
-          -- Do nothing (don't output the message!)
+          return
         end
       end
       SatchelCharge[id] = nil
