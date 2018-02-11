@@ -1,6 +1,5 @@
 Begging = {"pls me mod","i want adm pls"}
 
-
 function _say(id, text)
 	for i = 1, #Begging do
 		if (string.find(text,Begging[i])) then
