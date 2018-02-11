@@ -1,4 +1,4 @@
-Armour_player = {}
+local Armour_player = {}
 
 function _serveraction(id, action)
 	if action == 1 then
