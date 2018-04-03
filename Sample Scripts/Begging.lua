@@ -1,6 +1,6 @@
 local Begging = {"pls me mod", "i want adm pls"}
 
-function _say(id, text)
+function OnSayBegging(id, text)
 	for i = 1, #Begging do
 		if ( string.find(text,Begging[i]) ) then
 			msg("\169240128128" .. player(id, "name") .. " was begging for administration ranks. Kicked!")
@@ -9,4 +9,4 @@ function _say(id, text)
 	end
 end
 
-addhook("say", "_say")
+addhook("say", "OnSayBegging")
