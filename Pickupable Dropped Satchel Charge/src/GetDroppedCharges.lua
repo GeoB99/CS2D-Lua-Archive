@@ -1,6 +1,6 @@
 --------------------------------------
 -- Pickupable Dropped Satchel Charge
--- Script by ZxC (#99488)
+-- Script by ZxC (a.k.a Fraizeraust) (#99488)
 -- Date: 18 - 06 - 2017
 --------------------------------------
 

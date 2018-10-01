@@ -1,5 +1,5 @@
 -----------------
--- Score & Deaths register by ZxC
+-- Score & Deaths register by ZxC (a.k.a Fraizeraust)
 -- U.S.G.N. ID #99488
 -- Date: 11 - 06 - 2016
 -----------------
