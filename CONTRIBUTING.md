@@ -5,3 +5,4 @@
 - Lua scripts that aren't related with the CS2D game won't be merged.
 - Your script must be inside a directory with the name of the Lua script.
 - __**DO NOT OVERWRITE**__ the `server.lua` file! Use `dofile()` to include your script instead!
+- __**DO NOT**__ use the `master` branch for your commits! Create a separate branch from `master` instead and push your commits there.
